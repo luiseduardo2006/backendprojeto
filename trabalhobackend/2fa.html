@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Fator de Autenticação (2FA)</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
+        <h1>Segundo Fator de Autenticação</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="consulta_usuarios.html">Consulta de Usuários</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="alterar_senha.html">Alterar Senha</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form id="2fa-form" action="php/2fa.php" method="post">
+            <p>Responda à pergunta de segurança abaixo:</p>
+            
+            <label for="resposta">Pergunta de segurança:</label>
+            <input type="text" id="resposta" name="resposta" required>
+
+            <button type="submit">Verificar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="consulta_usuarios.html">Consulta de Usuários</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* Estilos para a página de cadastro de usuário */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centraliza os itens no nav */
+    background-color: gold; /* Cor de fundo do menu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Permite que os itens sejam exibidos horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adiciona espaço horizontal entre os itens */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#produtos-lista {
+    margin-bottom: 20px;
+}
+
+.produto {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center; /* Alinha imagem e texto verticalmente */
+}
+
+.produto img {
+    width: 50px; /* Ajuste o tamanho da imagem */
+    height: auto;
+    margin-right: 10px; /* Espaço entre imagem e texto */
+}
+
+.produto .actions {
+    margin-top: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav {
+    margin-bottom: 10px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,125 @@
+/* Estilos para a página de consulta de usuários */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: gold; /* Cor de fundo do menu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Permite que os itens sejam exibidos horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adiciona espaço horizontal entre os itens */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#lista-usuarios {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.usuario {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.usuario h3 {
+    margin: 0;
+}
+
+.usuario .actions {
+    margin-top: 10px;
+}
+
+button.editar,
+button.remover {
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #34495e; /* Cor de fundo do rodapé */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Exibe os itens do menu horizontalmente */
+}
+
+footer nav ul li {
+    margin: 0 15px; /* Espaço entre os itens do rodapé */
+}
+
+footer nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
