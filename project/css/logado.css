@@ -1,0 +1,72 @@
+/* logado.css */
+
+/* Estilo do nome do usuário na navegação */
+.menu-navegacao .barra-navegacao li a.usuario-nome {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/* Estilo do submenu para o perfil do usuário */
+.menu-navegacao .barra-navegacao li a.usuario-nome:hover + .sub-menu,
+.sub-menu:hover {
+  display: block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.sub-menu li a {
+  color: #555;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+/* Estilo do carrossel */
+.carrossel {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.carousel-inner {
+  display: flex;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel-item {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
